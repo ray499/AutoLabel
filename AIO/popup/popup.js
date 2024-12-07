@@ -1,0 +1,1 @@
+console.log("popup.js"),chrome.tabs.query({active:!0,lastFocusedWindow:!0,windowType:"normal"},(([o])=>{console.log(o)}));
